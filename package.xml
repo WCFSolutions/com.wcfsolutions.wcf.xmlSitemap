@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.wcfsolutions.wcf.xmlSitemap" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename>XML Sitemap Support</packagename>
+		<isunique>1</isunique>
+		<version>1.0.0</version>
+		<date>2012-08-19</date>
+	</packageinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.1.9">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<authorinformation>
+		<author>WCF Solutions</author>
+		<authorurl>http://www.wcfsolutions.com</authorurl>
+	</authorinformation>
+
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+	</instructions>
+</package>
