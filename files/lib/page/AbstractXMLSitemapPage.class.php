@@ -38,6 +38,9 @@ abstract class AbstractXMLSitemapPage extends MultipleLinkPage {
 	public function show() {
 		parent::show();
 
+		// send header
+		header('Content-type: text/xml');
+
 		// send content
 		WCF::getTPL()->display('xmlSitemap', false);
 	}

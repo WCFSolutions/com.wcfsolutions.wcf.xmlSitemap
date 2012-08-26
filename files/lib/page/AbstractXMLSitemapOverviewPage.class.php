@@ -35,6 +35,9 @@ abstract class AbstractXMLSitemapOverviewPage extends AbstractPage {
 	public function show() {
 		parent::show();
 
+		// send header
+		header('Content-type: text/xml');
+
 		// send content
 		WCF::getTPL()->display('xmlSitemapOverview', false);
 	}
